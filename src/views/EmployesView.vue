@@ -77,7 +77,7 @@
                     </tbody>
                 </table>
             </div> 
-        </div>
+        </div> 
         <AddEmploye v-if="modal_shown" @addEmployeEmited="handlerAddEmploye"  @close="modal_shown=false" />
         <AddConge
             v-if="modal_add_conge"
