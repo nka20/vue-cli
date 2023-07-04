@@ -133,7 +133,7 @@ export default {
     },
     methods: {
       modifierEmploye(o) {
-        this.employeObj=o
+        this.employerObj=o
         this.modal_modifier_conge=true
       },
       handlerAddEmploye(e){

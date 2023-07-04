@@ -30,7 +30,7 @@
 <br>
 <br>
 				<button style="color:white; padding:20px; background-color:red; margin-left:250px;">envoyer</button>
-				<button @click="$emit('allan')" style="color:white; padding:20px; background-color:blue; margin-left:250px;">close</button>
+				<button @click="$emit('close')" style="color:white,padding:20px; background-color:blue; margin-left:250px;">close</button>
 				</form>
 </overlay>
 <!--<overlay>modifier {{data}}</overlay>-->

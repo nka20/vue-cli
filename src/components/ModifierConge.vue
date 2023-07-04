@@ -17,12 +17,12 @@
           <input type="text" v-model="employe.genre" autofocus required />
       </div>
       <div>
-        <input
+        <button 
           class="btn btn-primary"
-          @click="enregistrer"
+          @click="$emit('close')"
           type="submit"
           :value="btn"
-        />
+        > envoyer </button>
         <button class="btn btn-danger">Close</button>
       </div>
       {{ employeProps }}
